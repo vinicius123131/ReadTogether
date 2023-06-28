@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+		<title>ReadTogether</title>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="format-detection" content="telephone=no">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="author" content="">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	    <link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+	    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- script
+		================================================== -->
+		<script src="js/modernizr.js"></script>
+
+	</head>
+
+<body>
+
+<div id="header-wrap">
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-10">
+					
+					<nav id="navbar">
+						<div class="main-menu stellarnav">
+							<ul class="menu-list">
+								<li class="menu-item active"><a href="#home" data-effect="Home">Home</a></li>
+								<li class="menu-item"><a href="#about" class="nav-link" data-effect="About">Sobre</a></li>
+								<li class="menu-item"><a href="#popular-books" class="nav-link" data-effect="Shop">Books</a></li>
+								<li class="menu-item"><a href="#latest-blog" class="nav-link" data-effect="Articles">Resenhas</a></li>
+								<li class="menu-item"><a href="#newBook" class="nav-link" data-effect="Contact">new book</a></li>
+							</ul>
+
+							<div class="hamburger">
+				                <span class="bar"></span>
+				                <span class="bar"></span>
+				                <span class="bar"></span>
+				            </div>
+
+						</div>
+					</nav>
+
+				</div>
+
+			</div>
+		</div>
+	</header>
+		
+</div><!--header-wrap-->
+
+<section id="billboard">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<button class="prev slick-arrow">
+					<i class="icon icon-arrow-left"></i>
+				</button>
+
+				<div class="main-slider pattern-overlay">
+					<div class="slider-item">
+						<div class="banner-content">
+							<h2 class="banner-title">O ladrão de raios</h2>
+							<p>O adolescente Percy Jackson descobre que os deuses gregos e as criaturas mitológicas são reais. Ele é filho de uma divindade e logo entra para um acampamento de treinamento para semideuses...</p>
+							<div class="btn-wrap">
+								<a href="#" class="btn btn-outline-accent btn-accent-arrow">Read<i class="icon icon-ns-arrow-right"></i></a>
+							</div>
+						</div><!--banner-content--> 
+						<img src="https://ambrosia.com.br/wp-content/uploads/2009/01/o-ladrao-de-raios.jpg" alt="banner" class="banner-image">
+					</div><!--slider-item-->
+
+					<div class="slider-item">
+						<div class="banner-content">
+							<h2 class="banner-title">O mundo de sofia</h2>
+							<p>Sofia é uma adolescente de 14 anos, e nas vésperas de seu aniversário começa a receber cartas anônimas. A menina fica indignada com o acontecido, uma vez que muitas circunstancias das cartas...</p>
+							<div class="btn-wrap">
+								<a href="#" class="btn btn-outline-accent btn-accent-arrow">Read More<i class="icon icon-ns-arrow-right"></i></a>
+							</div>
+						</div><!--banner-content--> 
+						<img src="https://www.ronaud.com/wp-content/uploads/2009/07/o-mundo-de-sofia-Jostein-Gaarder.jpg" alt="banner" class="banner-image">
+					</div><!--slider-item-->
+
+				</div><!--slider-->
+					
+				<button class="next slick-arrow">
+					<i class="icon icon-arrow-right"></i>
+				</button>
+				
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+<section id="featured-books">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+			<div class="section-header align-center">
+				<div class="title">
+					<span>Livros não lidos</span>
+				</div>
+				<h2 class="section-title">Livros para ler</h2>
+			</div>
+
+			<div class="product-list" data-aos="fade-up">
+				<div class="row" id="product-row">
+				</div>
+			</div>
+			
+
+
+			</div><!--inner-content-->
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="btn-wrap align-right">
+					<a href="#" class="btn-accent-arrow">View all books <i class="icon icon-ns-arrow-right"></i></a>
+				</div>
+				
+			</div>		
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="page-title">New Book</h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="contact-information padding-large mt-3" id="newBook">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 p-0">
+          <div class="contact-information">
+            <h2>New Book</h2>
+            <form id="bookForm" name="contactform" action="#" method="post" class="contact-form d-flex flex-wrap mt-4">
+				<div class="row">
+				  <div class="col-md-6">
+					<input type="text" id="autor" name="autor" placeholder="Autor" class="u-full-width" required>
+				  </div>
+				  <div class="col-md-6">
+					<input type="text" id="capa" name="capa" placeholder="Capa" class="u-full-width" required>
+				  </div>
+				</div>
+			  
+				<div class="row">
+				  <div class="col-md-6">
+					<input type="text" id="titulo" name="titulo" placeholder="Título" class="u-full-width" required>
+				  </div>
+				  <div class="col-md-6">
+					<input type="text" id="pessoaPostou" name="pessoaPostou" placeholder="Pessoa que postou" class="u-full-width" required>
+				  </div>
+				</div>
+			  
+				<div class="row">
+				  <div class="col-md-12">
+					<select id="categoria" name="categoria" class="u-full-width">
+					  <option value="fantasia">Fantasia</option>
+					  <option value="romance">Romance</option>
+					  <option value="ficcao-cientifica">Ficção Científica</option>
+					  <!-- Adicione mais opções conforme necessário -->
+					</select>
+
+					<label>
+						<input type="checkbox" id="lido">
+						<span class="label-body">Lido</span>
+					  </label>
+					
+					<button type="button" onclick="saveForm()" class="btn btn-full btn-rounded">Enviar</button>
+				  </div>
+				</div>
+			  </form>
+          </div><!--contact-information-->
+        </div><!--col-md-6-->
+      </div>
+    </div>
+  </section>
+
+<script>
+	var productRow = document.getElementById('product-row');
+
+// Fazer a requisição à API e obter os dados
+fetch('https://api.sheety.co/ba7cb9e46abee3f6b81e7ea9579b41ef/banco/banco')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    // Iterar sobre os objetos do array e gerar o código HTML dinamicamente
+    data.banco.forEach(function(livro) {
+      var productItem = document.createElement('div');
+      productItem.className = 'col-md-3';
+
+      var figure = document.createElement('figure');
+      figure.className = 'product-style';
+
+      var img = document.createElement('img');
+      img.src = livro.capa;
+      img.alt = 'Books';
+      img.className = 'product-item';
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'add-to-cart';
+      button.setAttribute('data-product-tile', 'add-to-cart');
+      button.textContent = 'Read';
+
+      var figcaption = document.createElement('figcaption');
+  
+      var h3 = document.createElement('h3');
+      h3.textContent = livro.titulo;
+
+      var p = document.createElement('p');
+      p.textContent = livro.autor;
+
+      var div = document.createElement('div');
+      div.className = 'item-price';
+      div.textContent = livro.pessoaPostou;
+
+      figcaption.appendChild(h3);
+      figcaption.appendChild(p);
+      figcaption.appendChild(div);
+
+      figure.appendChild(img);
+      figure.appendChild(button);
+      figure.appendChild(figcaption);
+
+      productItem.appendChild(figure);
+
+      productRow.appendChild(productItem);
+    });
+  })
+  .catch(function(error) {
+    console.log('Ocorreu um erro:', error);
+  });
+</script>
+
+<script>
+	function saveForm() {
+  // Obter os valores dos campos do formulário
+  var autor = document.getElementById('autor').value;
+  var capa = document.getElementById('capa').value;
+  var titulo = document.getElementById('titulo').value;
+  var pessoaPostou = document.getElementById('pessoaPostou').value;
+  var lido = document.getElementById('lido').checked;
+  var categoria = document.getElementById('categoria').value;
+
+  // Construir o objeto de dados
+  var body = {
+    banco: {
+      autor: autor,
+      capa: capa,
+      titulo: titulo,
+      pessoaPostou: pessoaPostou,
+      lido: lido,
+      categoria: categoria
+    }
+  };
+
+  // URL da API
+  var url = 'https://api.sheety.co/ba7cb9e46abee3f6b81e7ea9579b41ef/banco/banco';
+
+  // Enviar a requisição POST usando fetch
+  fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  })
+    .then(function(response) {
+      if (!response.ok) {
+        throw new Error('Erro ao enviar a solicitação. Status: ' + response.status);
+      }
+      return response.json();
+    })
+    .then(function(json) {
+      // Limpar os campos do formulário
+document.getElementById('autor').value = '';
+document.getElementById('capa').value = '';
+document.getElementById('titulo').value = '';
+document.getElementById('pessoaPostou').value = '';
+document.getElementById('lido').checked = false;
+document.getElementById('categoria').value = '';
+
+    })
+    .catch(function(error) {
+      console.log('Ocorreu um erro:', error);
+    });
+}
+
+	</script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>	
