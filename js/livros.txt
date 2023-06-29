@@ -1,1 +1,0 @@
-[{"autor":"Madeline Miller","capa":"https://m.media-amazon.com/images/I/81zvux2QPkL._AC_UF1000,1000_QL80_.jpg","titulo":"A Canção de Aquiles","pessoaPostou":"Manu","lido":false},{"autor":"Tricia Levenseller","capa":"https://m.media-amazon.com/images/I/91S-5RMk6rL._AC_UF350,350_QL50_.jpg","titulo":"The Shadows Between Us","pessoaPostou":"Manu","lido":false}]
