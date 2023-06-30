@@ -50,3 +50,35 @@ function saveForm() {
         console.log('Ocorreu um erro:', error);
       });
   }
+
+  document.getElementById("bookForm").addEventListener("input", updateBook);
+
+function updateBook() {
+    // Captura os valores do formulário
+    var autor = document.getElementById("autor").value;
+    var capa = document.getElementById("capa").value;
+    var titulo = document.getElementById("titulo").value;
+    var pessoaPostou = document.getElementById("pessoaPostou").value;
+    var categoria = document.getElementById("categoria").value;
+    var lido = document.getElementById("lido").checked;
+
+    // Atualiza o conteúdo do livro de objetos com as novas informações
+    document.getElementById("livro").innerHTML = `
+	<div class='col-md-3'>
+        <figure class="products-thumb">
+            <img src="${capa}" alt="book" class="single-image">
+        </figure>
+	</div>
+
+	<div class='col-md-3'>
+        <div class="product-entry">
+            <h2 class="section-title divider">${titulo}</h2>
+            <div class="products-content">
+                <div class="author-name">By ${autor}</div>
+                <h3 class="item-title">${pessoaPostou}</h3>
+                <div class="item-price">${lido ? 'Lido' : 'Não lido'}</div>
+            </div>
+        </div>
+	</div>
+    `;
+}
