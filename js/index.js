@@ -1,13 +1,13 @@
 let url = 'https://api.sheety.co/ba7cb9e46abee3f6b81e7ea9579b41ef/banco/banco';
 
 function fetchDados(url){
-    return fetch(url)
-    .then(function(response){
-        return response.json();
-    })
-    .catch(function(error){
-        console.log('Ocorreu um erro ao buscar: ', url, 'error: ', error)
-    });
+  return fetch(url)
+  .then(function(response){
+      return response.json();
+  })
+  .catch(function(error){
+      console.log('Ocorreu um erro ao buscar: ', url, 'error: ', error)
+  });
 }
 
 function createLivroLendoCapa(livro){
